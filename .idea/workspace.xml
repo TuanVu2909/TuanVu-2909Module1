@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/Bangdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Indexonchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/DoiTien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Doitien.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/bienJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/demoJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienJv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CreatForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CreatForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Bangdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Bangdongian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Form1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Form1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\webStorm" />
@@ -74,7 +78,10 @@
       <workItem from="1678066918038" duration="19858000" />
       <workItem from="1678116597715" duration="4368000" />
       <workItem from="1678153309789" duration="636000" />
-      <workItem from="1678154445784" duration="9320000" />
+      <workItem from="1678154445784" duration="14807000" />
+      <workItem from="1678191494966" duration="4847000" />
+      <workItem from="1678237773592" duration="10295000" />
+      <workItem from="1678263191305" duration="7806000" />
     </task>
     <servers />
   </component>
@@ -91,5 +98,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavarScipt/demoJs.html</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

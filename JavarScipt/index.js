@@ -1,2 +1,3 @@
-var intro = "Hello World";
-document.getElementById("intro").innerHTML = intro;
+function showMessage(){
+    document.write('Xin chào!');
+}
