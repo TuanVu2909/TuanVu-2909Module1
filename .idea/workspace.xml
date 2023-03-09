@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavarScipt/DoiTien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Doitien.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/bienJs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/demoJs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bienJv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Bangdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Bangdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Form1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Form1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/DoiTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/DoiTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/Doitien.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/Doitien.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/Indexonchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/Indexonchange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/bienJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/bienJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/demoJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/demoJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/taomaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/taomaytinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/taomaytinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/taomaytinh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bienJv.html" beforeDir="false" afterPath="$PROJECT_DIR$/bienJv.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +83,8 @@
       <workItem from="1678191494966" duration="4847000" />
       <workItem from="1678237773592" duration="10295000" />
       <workItem from="1678263191305" duration="7806000" />
+      <workItem from="1678285821222" duration="4387000" />
+      <workItem from="1678323539999" duration="2246000" />
     </task>
     <servers />
   </component>
@@ -103,7 +106,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/JavarScipt/demoJs.html</url>
+          <url>file://$PROJECT_DIR$/JavarScipt/BienvaToanTu/demoJs.html</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
