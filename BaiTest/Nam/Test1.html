@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  Thu Nhập (Triệu Đồng):<br>
+  <input type="number" id="Money"><br>
+<button onclick="enter()">Enter</button>
+<p id="ThuNhap"></p>
+</body>
+</html>
+<script>
+  function enter(){
+    let tn = +document.getElementById("Money").value;
+    let thue1 = tn*5/100;
+    let thue2 = tn*10/100 -0.25;
+    let thue3 = tn*15/100 -0.75;
+    let thue4 = tn*20/100 -1.65;
+    let thue5 = tn*25/100 -3.25;
+    let thue6 = tn*30/100 -5.85;
+    let thue7 = tn*35/100 -9.85;
+
+    if (tn <= 5) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue1 + "tr"
+    } else if (tn <= 10) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue2 + "tr"
+    } else if (tn <= 18) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue3 + "tr"
+    } else if (tn <= 32) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue4 + "tr"
+    } else if (tn <= 52) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue5 + "tr"
+    } else if (tn <= 80) {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue6 + "tr"
+    } else {
+        document.getElementById("ThuNhap").innerHTML = "Tiền Thuế:" + thue7 + "tr"
+    }
+
+  }
+</script>

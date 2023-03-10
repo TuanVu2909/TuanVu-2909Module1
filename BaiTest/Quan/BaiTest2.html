@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Nhap a</p><input type="number" id="NumberA"><br>
+<p>Nhap b</p><input type="number" id="NumberB">
+<button onclick="Enter()">Enter</button>
+</body>
+</html>
+<script>
+    function Enter(){
+        let a = +document.getElementById("NumberA").value;
+        let b = +document.getElementById("NumberB").value;
+        document.write("<h1>S=a*b</h1>");
+    }
+</script>

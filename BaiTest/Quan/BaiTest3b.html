@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhap so A:
+<input type="number" id="SoA"><br>
+Nhap so B:
+<input type="number" id="SoB"><br>
+<button onclick="Enter()">Enter</button>
+</body>
+</html>
+<script>
+  function Enter() {
+    let a = +document.getElementById("SoA").value;
+    let b = +document.getElementById("SoB").value;
+    C = a*2;
+    D =Math.pow(a,b);
+
+    alert("a^2=" +C);
+    alert("a^b="+D);
+  }
+</script>

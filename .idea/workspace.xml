@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/Test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/Baitest1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/ex01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/DoiTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/DoiTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/Doitien.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/Doitien.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/Indexonchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/Indexonchange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/bienJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/bienJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/demoJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/demoJs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/taomaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/taomaytinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/taomaytinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/taomaytinh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bienJv.html" beforeDir="false" afterPath="$PROJECT_DIR$/bienJv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bienJv.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/bienJv.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,6 +66,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\webStorm" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavarScipt\BienvaToanTu" />
+      <recent name="D:\CodeGym\BaiTest\Quan" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +95,9 @@
       <workItem from="1678237773592" duration="10295000" />
       <workItem from="1678263191305" duration="7806000" />
       <workItem from="1678285821222" duration="4387000" />
-      <workItem from="1678323539999" duration="2246000" />
+      <workItem from="1678323539999" duration="11720000" />
+      <workItem from="1678371606591" duration="9149000" />
+      <workItem from="1678410425388" duration="12111000" />
     </task>
     <servers />
   </component>

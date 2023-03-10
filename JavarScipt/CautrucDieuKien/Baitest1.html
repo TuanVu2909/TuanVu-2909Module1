@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhap so A:
+<input type="number" id="SoA"><br>
+Nhap so B:
+<input type="number" id="SoB"><br>
+<button onclick="Enter()">Enter</button>
+</body>
+</html>
+<script>
+  function Enter() {
+    let A = document.getElementById("SoA").value;
+    let B = document.getElementById("SoB").value;
+    A= parseInt(A);
+    B= parseInt(B);
+
+
+
+    let Cong = A+B;
+    let Tru = A-B;
+    let Nhan = A*B;
+    let Chia = A/B;
+    let Du = A%B;
+
+    document.write("a+b=" +Cong);
+    document.write("a-b=" +Tru);
+    document.write("a*b=" +Nhan);
+    document.write("a/b=" +Chia);
+    document.write("a%b=" +Du);
+
+  }
+</script>

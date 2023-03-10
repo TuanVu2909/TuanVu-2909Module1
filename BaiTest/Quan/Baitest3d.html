@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Year:<input type="number" id="Year" >
+<button onclick="Year()">Enter</button>
+</body>
+</html>
+<script>
+  function Year(){
+    let year = +document.getElementById("Year").value;
+    A1= year/100 +1;
+    A2= year/100;
+
+    if (year % 100 === "0") {
+      alert("The Ky:" + A2);
+    } else if (year % 100 > "0") {
+      alert("The ky" + A1);
+    } else {
+      alert("nhap lai");
+    }
+  }
+
+
+</script>
