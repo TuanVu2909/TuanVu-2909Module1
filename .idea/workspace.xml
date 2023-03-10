@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/Test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/Baitest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/ex01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bienJv.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/BienvaToanTu/bienJv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +82,7 @@
       <workItem from="1678285821222" duration="4387000" />
       <workItem from="1678323539999" duration="11720000" />
       <workItem from="1678371606591" duration="9149000" />
-      <workItem from="1678410425388" duration="12111000" />
+      <workItem from="1678410425388" duration="15656000" />
     </task>
     <servers />
   </component>
