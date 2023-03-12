@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+nhập a: <input type= "text" id="numbera">
+nhập b: <input type= "text" id="numberb">
+nhập c: <input type= "text" id="numberc">
+<button onclick="result()">Result</button>
+<p id="Display"></p>
+</body>
+</html>
+<script>
+    function result(){
+        let a = document.getElementById("numbera").value;
+        let b = document.getElementById("numberb").value;
+        let c = document.getElementById("numberc").value;
+
+        if(b<=a && c<=a){
+            document.getElementById("Display").innerHTML = "Max là: " +a;
+        }else if(b>=c){
+            document.getElementById("Display").innerHTML = "Max là: " +b;
+        }else {
+            document.getElementById("Display").innerHTML = "Max là: " +c;
+        }
+    }
+</script>

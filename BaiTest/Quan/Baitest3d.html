@@ -12,12 +12,12 @@ Year:<input type="number" id="Year" >
 <script>
   function Year(){
     let year = +document.getElementById("Year").value;
-    A1= year/100 +1;
-    A2= year/100;
+    let A1= parseInt(year/100 +1);
+    let A2 = year/100;
 
-    if (year % 100 === "0") {
+    if (year % 100 === 0) {
       alert("The Ky:" + A2);
-    } else if (year % 100 > "0") {
+    } else if (year % 100 > 0) {
       alert("The ky" + A1);
     } else {
       alert("nhap lai");

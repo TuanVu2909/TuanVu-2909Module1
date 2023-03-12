@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+     h1{
+
+         color: red;
+         margin-left: 250px;
+     }
+     .button1{
+         margin-left: 290px;
+     }
+     .button2{
+         margin-left: 30px;
+         position: absolute;
+     }
+  </style>
+
+</head>
+<body>
+<h1>Do You Love Me</h1>
+<button class="button1" value="yes" onclick="btnYes()">Yes</button>
+<button class="button2" onmouseover="btnNo()" value="no" id="No">No</button>
+</body>
+</html>
+<script>
+  function btnYes(){
+    alert("Yes. Me to");
+  }
+  function btnNo(){
+     let x = Math.round(Math.random() * window.innerWidth);
+     let y = Math.round(Math.random() * window.innerHeight);
+     document.getElementById('No').style.left = x + 'px';
+     document.getElementById('No').style.top = y + 'px';
+
+  }
+</script>

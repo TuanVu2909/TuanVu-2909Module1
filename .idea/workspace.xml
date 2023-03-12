@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/TimMax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/CanNang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/Doyouloveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/MayTinhDonGian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/PhuongTrinhBac2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/BaiTap1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/BaiTap1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/Baitest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/Baitest1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/NamNhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/NamNhuan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/SwitchCase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/ex01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +65,8 @@
       <recent name="D:\webStorm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien2" />
+      <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien1" />
       <recent name="D:\CodeGym\JavarScipt\BienvaToanTu" />
       <recent name="D:\CodeGym\BaiTest\Quan" />
     </key>
@@ -82,7 +97,9 @@
       <workItem from="1678285821222" duration="4387000" />
       <workItem from="1678323539999" duration="11720000" />
       <workItem from="1678371606591" duration="9149000" />
-      <workItem from="1678410425388" duration="15656000" />
+      <workItem from="1678410425388" duration="15858000" />
+      <workItem from="1678454627706" duration="12267000" />
+      <workItem from="1678587089680" duration="19544000" />
     </task>
     <servers />
   </component>
