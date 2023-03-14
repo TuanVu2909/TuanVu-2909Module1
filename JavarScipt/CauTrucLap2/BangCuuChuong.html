@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h1 style="color: red" >Bảng Cửu Chương</h1>
+<div id="tbll"></div>
+<script>
+
+    let tbl;
+    tbl = "<table border=\"1\" width='400px'>"
+
+    for (let i = 2; i <= 10; i++) {
+        tbl = tbl + "<tr>";
+        for (let j = 1; j <= 10; j++) {
+            tbl= tbl + "<td>"  +i*j;
+
+                }
+
+                }
+    tbl = tbl + "</table>";
+document.getElementById("tbll").innerHTML = tbl;
+
+
+
+</script>
+</body>
+</html>

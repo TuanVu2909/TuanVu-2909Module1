@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Test prime number</title>
+</head>
+<body>
+<script>
+    let n;
+    do {
+        n = prompt("Nhập số:");
+        printFirstNPrimes(n);
+    } while (isNaN(n) || n === "");
+
+    function isPrime(num) {
+        if (num <= 1) {
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+                    if (num % i === 0) {
+                        return false;
+            }
+        }
+        return true;
+    }
+
+    function printFirstNPrimes(n) {
+        let count = 0;
+        let num = 2;
+        while (count < n) {
+            if (isPrime(num))  {
+                document.write("Prime:" +  "   " + num + " , ");
+                count++;
+            }
+            num++;
+        }
+    }
+</script>
+</body>
+</html>

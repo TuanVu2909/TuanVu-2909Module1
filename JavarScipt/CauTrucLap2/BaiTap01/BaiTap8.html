@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="playGame()">Choi</button>
+<p id="Number"></p>
+
+</body>
+</html>
+<script>
+  function playGame(){
+    let number = +prompt("Enter Number:");
+    let n= +Math.floor(Math.random()*100);
+    for (n;n<100;n++){
+      if(number === n){
+        document.getElementById("Number").innerHTML = "Chúc mừng và kết thúc lượt chơi";
+        break;
+      }else if(number<n){
+        document.getElementById("Number").innerHTML = "Bé hơn";
+        prompt("Enter Number");
+        break
+      }else {
+        document.getElementById("Number").innerHTML = "Lớn hơn";
+        prompt("Enter Number");
+        break;
+      }
+    }
+
+  }
+</script>

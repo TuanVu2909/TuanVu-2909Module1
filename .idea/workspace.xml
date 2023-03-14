@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/TimMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/CanNang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/Doyouloveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/MayTinhDonGian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/PhuongTrinhBac2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/baiTap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Baitap6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Print20Fibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BangCuuChuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienThi20SNTFisrt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienthiPrime2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/VongLaplongNhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexDoWhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexWhile1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexfor1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/Baitest3d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/BaiTap1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/BaiTap1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/BaiTap1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/Baitest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/Baitest1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/NamNhuan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/NamNhuan.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/NamNhuan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/SwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien2/SwitchCase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CautrucDieuKien/CauTrucDieuKien1/ex01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
       <recent name="D:\webStorm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavarScipt\CauTrucLap2\BaiTap01" />
       <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien2" />
       <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien1" />
       <recent name="D:\CodeGym\JavarScipt\BienvaToanTu" />
@@ -99,7 +102,11 @@
       <workItem from="1678371606591" duration="9149000" />
       <workItem from="1678410425388" duration="15858000" />
       <workItem from="1678454627706" duration="12267000" />
-      <workItem from="1678587089680" duration="19544000" />
+      <workItem from="1678587089680" duration="23903000" />
+      <workItem from="1678669794622" duration="20082000" />
+      <workItem from="1678712041199" duration="9280000" />
+      <workItem from="1678755882048" duration="25454000" />
+      <workItem from="1678796637295" duration="2595000" />
     </task>
     <servers />
   </component>

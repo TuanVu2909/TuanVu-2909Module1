@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let number = parseInt(prompt("Enter number:"));
+  let count = 0;
+
+  for (let i = 2; count<number; i++){
+    let isPrime = true;
+    for (let n=2; n<= Math.sqrt(i); n++){
+      if (i%n ===0){
+        isPrime = false;
+      }
+    }
+    if(isPrime){
+      document.write("Các số nguyên tố: " +i + " <br> ");
+      count++;
+    }
+
+  }
+</script>
+</body>
+</html>

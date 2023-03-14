@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Enter Number:"));
+    let count = 0;
+    let n1 = 0;
+    let n2 = 1;
+    let text ;
+    let sum=0;
+
+    for (let i=1; i<=number;i++){
+        document.write( " " +n1 + "<br>") ;
+        sum +=n1;
+        text = n1 + n2;
+        n1 = n2;
+        n2 = text;
+
+
+
+        //if(text%5===0){
+           // document.write(text);
+           // break;
+        //}
+
+    }
+document.write(sum);
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
