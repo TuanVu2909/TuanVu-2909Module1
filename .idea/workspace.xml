@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/baiTap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Baitap6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Print20Fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BangCuuChuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienThi20SNTFisrt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienthiPrime2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/VongLaplongNhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexDoWhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexWhile1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucVongLap1/indexfor1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/Baitap2/InDayFibonaci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTest3d.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +92,7 @@
       <workItem from="1678669794622" duration="20082000" />
       <workItem from="1678712041199" duration="9280000" />
       <workItem from="1678755882048" duration="25454000" />
-      <workItem from="1678796637295" duration="2595000" />
+      <workItem from="1678796637295" duration="4047000" />
     </task>
     <servers />
   </component>
