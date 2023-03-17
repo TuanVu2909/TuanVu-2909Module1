@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="Number"></p>
+<script>
+  let sum = 0;
+  for (let i = 2; i < 500; i++) {
+    let flag = true;
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        flag = false;
+      }
+    }
+    if (flag) {
+      console.log(i);
+      sum += i;
+    }
+  }
+  document.getElementById("Number").innerHTML = sum;
+</script>
+
+</body>
+</html>

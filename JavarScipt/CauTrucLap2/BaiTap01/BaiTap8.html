@@ -11,23 +11,26 @@
 </body>
 </html>
 <script>
-  function playGame(){
-    let number = +prompt("Enter Number từ 0-99:");
-    let numberOne= +Math.floor(Math.random()*100)+1;
-    for (let n = 0;n<100;n++){
-      if(number === numberOne){
-        document.getElementById("Number").innerHTML = "Chúc mừng và kết thúc lượt chơi";
-        break;
-      }else if(number<numberOne){
-        document.getElementById("Number").innerHTML = +number +"Bé hơn" + numberOne;
+    function playGame() {
+        let soDau = +prompt("Nhập số đầu");
+        let soCuoi = +prompt("Nhập số cuối:");
+        let numberOne = +Math.floor(Math.random() * (soCuoi - soDau)) + soDau;
 
-        break;
-      }else {
-        document.getElementById("Number").innerHTML = +number + "Lớn hơn" + numberOne;
+        for (let n = 0; n < 3; n++) {
+            let number = +prompt("Nhập số :");
+            if (number === numberOne) {
+                document.getElementById("Number").innerHTML = "Chúc mừng và kết thúc lượt chơi";
+                break;
+            } else if (number < numberOne) {
+                document.getElementById("Number").innerHTML = +number + "Bé hơn" + numberOne;
 
-        break;
-      }
+                break;
+            } else {
+                document.getElementById("Number").innerHTML = +number + "Lớn hơn" + numberOne;
+
+                break;
+            }
+        }
+
     }
-
-  }
 </script>

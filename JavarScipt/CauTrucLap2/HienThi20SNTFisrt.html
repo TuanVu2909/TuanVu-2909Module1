@@ -12,7 +12,8 @@
     for (let i = 2; count < number; i++) {
         let isPrime = true;
 
-        for (let j = 2; j <= Math.sqrt(i); j++) {
+        for (let j = 0; j <= Math.sqrt(i); j++) {
+
             if (i % j === 0) {
                 isPrime = false;
                 break;

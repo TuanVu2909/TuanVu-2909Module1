@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="Array"></p>
+</body>
+</html>
+<script>
+    let arr = [
+        [2, 3, 4, 5],
+        [6, 7, 8, 9]
+    ];
+
+    let maxOfIndex = arr[0][0];
+    let minOfIndex = arr[0][0];
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 1; j < arr[i].length; j++) {
+            if (maxOfIndex < arr[i][j]) {
+                maxOfIndex = arr[i][j];
+            }
+            if (minOfIndex > arr[i][j]){
+                minOfIndex = arr[i][j];
+            }
+        }
+    }
+    document.getElementById("Array").innerHTML = "Max: " + maxOfIndex + "<br>" + "Min:" + minOfIndex;
+
+    // for (let j =0 ; )
+
+</script>

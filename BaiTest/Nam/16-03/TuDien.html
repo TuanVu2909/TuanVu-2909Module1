@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="string" name="input1"><button onclick="search()">Tìm Kiếm</button><br>
+
+<p id="Enter"></p>
+<script>
+
+    function search() {
+        let arr1 = ["Apple", "Banana", "Orange", "Grape"]
+        let arr2 = ["Táo", "Chuối", "Cam", "Nho"]
+        let england = document.getElementById("string").value;
+        let result = "";
+        let index = 0;
+        for (let i = 0; i < arr1.length; i++) {
+            if (england === arr1[i]) {
+               index = i;
+            }else {
+                alert("Không Tìm Thấy")
+                break;
+            }
+
+            }
+         for (let j = 0; j< arr2.length; j++ ){
+             if (index === j ){
+                result = arr2[j];
+             }
+         }
+
+        document.getElementById("Enter").innerHTML = result;
+
+
+
+    }
+
+
+
+</script>
+</body>
+</html>
