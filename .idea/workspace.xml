@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/16-03/HoanDoiViTriMaxvaMin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/16-03/Khoitaomangtubanphim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Nam/16-03/TuDien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/InBangCuuChuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/TimGiaTriMaxMinMang2chieu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/TinhTongTichGiaTriTB.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTapjames/Chendau-vaosochan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/Taobancocaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/Timgiartritrongmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/daonguocmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/indexMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/timgiatrilonnhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/BaiTap8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Print20Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BaiTap01/Print20Fibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/BangCuuChuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienThi20SNTFisrt.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienThi20SNTFisrt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +96,7 @@
       <workItem from="1678842205154" duration="7376000" />
       <workItem from="1678889675230" duration="7846000" />
       <workItem from="1678929357231" duration="25746000" />
-      <workItem from="1679016250360" duration="4776000" />
+      <workItem from="1679016250360" duration="5321000" />
     </task>
     <servers />
   </component>
