@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangKy/DangKy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangKy/FormDangKy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangKy/FormDangKy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangNhap/DangNhap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangNhap/FormDangNhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/DangNhap/Formdangnhap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham1/17-03/ChuyenDoiNhietDo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham1/17-03/Confrim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham1/17-03/TimMinCuaMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham1/17-03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham2/20-03/ChuyenDoiFeetSangMester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham2/20-03/IsPrimeDuoi1000.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham2/20-03/LuyenTap01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham2/20-03/UngDungQuanLySP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Ham2/20-03/luyentap02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/21-03/QuanLyHocSinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/21-03/QuanLyHocSinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/21-03/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/21-03/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/22-03/UngDungDienThoai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/22-03/UngDungDienThoai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavarScipt/Object/22-03/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTest/Quan/BaiTap17-03/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/Timgiartritrongmang.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/Mảng/Mảng1/15-03/Timgiartritrongmang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
@@ -39,6 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/CodeGym&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,11 +84,11 @@
       <recent name="D:\webStorm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\CaseStudy\DangKy" />
+      <recent name="D:\CodeGym\CaseStudy\DangNhap" />
+      <recent name="D:\CodeGym\CaseStudy" />
+      <recent name="D:\CodeGym\JavarScipt\Ham2\20-03" />
       <recent name="D:\CodeGym\JavarScipt\CauTrucLap2\BaiTap01" />
-      <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien2" />
-      <recent name="D:\CodeGym\JavarScipt\CautrucDieuKien\CauTrucDieuKien1" />
-      <recent name="D:\CodeGym\JavarScipt\BienvaToanTu" />
-      <recent name="D:\CodeGym\BaiTest\Quan" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +127,14 @@
       <workItem from="1678842205154" duration="7376000" />
       <workItem from="1678889675230" duration="7846000" />
       <workItem from="1678929357231" duration="25746000" />
-      <workItem from="1679016250360" duration="5321000" />
+      <workItem from="1679016250360" duration="9181000" />
+      <workItem from="1679275024886" duration="23185000" />
+      <workItem from="1679324402790" duration="8479000" />
+      <workItem from="1679360360220" duration="13933000" />
+      <workItem from="1679401281378" duration="4093000" />
+      <workItem from="1679446066254" duration="26186000" />
+      <workItem from="1679492556810" duration="10580000" />
+      <workItem from="1679539443530" duration="13049000" />
     </task>
     <servers />
   </component>
@@ -126,6 +164,11 @@
           <url>file://$PROJECT_DIR$/JavarScipt/CauTrucLap2/HienThi20SNTFisrt.html</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavarScipt/Ham1/17-03/Confrim.html</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

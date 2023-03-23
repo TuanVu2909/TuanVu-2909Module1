@@ -12,17 +12,19 @@
 
     for (let i = 0; i < arr.length; i++) {
         let flag = true;
-        if (arr[i]>1){
-            for (let j = 2; j < arr[i]; j++)
+        if (arr[i] > 1) {
+            for (let j = 2; j < arr[i]; j++) {
                 if (arr[i] % j === 0) {
                     flag = false;
                     break;
                 }
+
+            }
             if (flag) {
                 sum += arr[i];
+
             }
         }
-
     }
     document.getElementById("Number").innerHTML = "Tổng các số nguyên tố trong mảng: " + sum;
 </script>

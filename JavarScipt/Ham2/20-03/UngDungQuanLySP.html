@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="show"></p>
+<button onclick="addProduct()">Add</button>
+
+</body>
+</html>
+<script>
+    let arr1 = ["Ip", 500, "USA"];
+    let arr2 = ["SamSung", 400, "Korea"];
+    let arr3 = ["Oppo", 300, "China"]
+    let products = [arr1, arr2, arr3];
+
+    function display() {
+        let str = "<table border='1px'>";
+        for (let i = 0; i < products.length; i++) {
+            str += "<tr>";
+            for (let j = 0; j < products[i].length; j++) {
+                str += "<td>" + products[i][j] + "</td>";
+            }
+            str += "<td><button onclick='editProduct(" + i + ")'>Edit</button></td>" +
+                "<td><button onclick='deleteProduct()'>Delete</button></td></tr>"
+        }
+        str += "</table>";
+        document.getElementById("show").innerHTML = str;
+    }
+
+    function inputProd() {
+
+        let name = prompt("Nhập name:");
+        let price = prompt("Nhập price:");
+        let from = prompt("Nhập From:");
+        let newProd = [name, price, from]
+        return newProd;
+
+    }
+
+    function addProduct() {
+        let newProd = inputProd();
+        products.push(newProd);
+        display();
+    }
+
+    function editProduct(index) {
+        let newProd = inputProd();
+        products.splice(index, 1, newProd);
+        display();
+    }
+
+    function deleteProduct(index) {
+        let c = confirm("Bạn có muốn xóa ko");
+        if (c === true) {
+            products.splice(index,1)
+            display();
+
+        }
+    }
+
+    display(products);
+
+
+</script>

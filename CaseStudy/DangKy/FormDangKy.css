@@ -1,0 +1,11 @@
+#form-login {
+    margin-left: 400px;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+}
+#h1{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p id="outPut"><button onclick="minOfIndex()">Display</button></p>-->
+</body>
+</html>
+<script>
+
+  function minOfIndex(arr) {
+    let minArray = arr[0][0];
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr[i].length; j++) {
+        if (arr[i][j] < minArray) {
+          minArray = arr[i][j];
+        }
+      }
+    }
+    // document.getElementById("outPut").innerHTML = minArray;
+    return minArray;
+  }
+
+  let arr1 = [3, 5, 1, 8, -3, 7, 8];
+  let arr2 = [7, 12, 6, 9, 20, 56, 89];
+  let arr3 = [];
+  let arr4 = [0, 0, 0, 0, 0, 0];
+  let arr = [];
+  arr.push(arr1, arr2, arr3, arr4);
+  alert(minOfIndex(arr))
+
+  // function tong(a, b){ // khai bao
+  //   alert(a + b);
+  // }
+  //
+  //
+  // let a1 = 1, a2 = 2, a3 = 3, a4 = 4;
+  // tong(a1, a3);  // truyen vao gia tri
+  // tong(a2, a4)
+  //
+  //
+  // function min(arr) {
+  //   // tra ve gia tri nho nhat
+  // }
+  //
+  // min1 = min(arr1)
+  // min(arr2)
+  // min(arr3)
+  // min(arr4)
+
+</script>
