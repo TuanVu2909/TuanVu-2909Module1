@@ -5,28 +5,32 @@
   <title>Title</title>
     <link rel="stylesheet" href="Formdangnhap.css">
     <script src="DangNhap.js"></script>
+    <script src="Manage.html"></script>
 </head>
 
 <body>
-<form id="form-login">
+<div id="form-login">
     <table id="table" >
         <tr>
-            <td colspan="4"><h1 style="color: white">Đăng Nhập</h1></td>
+            <td colspan="4"><h1 style="color: white">LogIn</h1></td>
         </tr>
         <tr>
-            <td><h4 style="color: white">User Name</h4></td>
+            <td><h3 style="color: white" >User Name</h3></td>
             <td colspan="3" class="form-input"><input  type="text" placeholder="Tên Đăng Nhập" id="username"></td>
         </tr>
         <tr>
-            <td><h4 style="color: white">PassWord</h4></td>
+            <td><h3 style="color: white">PassWord</h3></td>
             <td colspan="3" class="form-input"><input type="password" placeholder="Mật Khẩu" id="password"></td>
         </tr>
         <tr>
-            <td colspan="2" class="form-submit"><button onclick="test()" class="form-submit">Đăng Nhập</button></td>
-            <td colspan="2" class="form-submit"><button class="form-submit">Đăng Ký</button></td>
+            <td colspan="2" ><button onclick="test()" class="form-submit">Đăng Nhập</button></td>
         </tr>
+        <tr>
+            <td colspan="2" ><button onclick="cancel()" class="form-submit">Cancel</button></td>
+        </tr>
+
     </table>
-</form>
+</div>
 </body>
 <script>
 

@@ -8,16 +8,20 @@
 
 </body>
 <script>
-    function aVeryBigSum(ar) {
+    function staircase() {
         // Write your code here
-        console.timeLog(ar)
-        let long = 0;
-        for (let i = 0; i<= ar.length; i++){
-            long += ar[i];
+        let arr = [1,2,3,4,5]
+        let sum =0;
+        let min =0;
+        let max =0 ;
+        for (let i = 0; i< arr.length; i ++) {
+
+            sum = arr.reduce(sum - arr[i]);
+
         }
-       return long;
-        console.log(long);
-    }
-    aVeryBigSum( [1000000001, 1000000002,1000000003,1000000004,1000000005]);
+        console.log(sum)
+    }staircase()
+
+
 </script>
 </html>

@@ -33,22 +33,22 @@ function inputStudent(){
     let gender;
     do{
         name = prompt("nhập Name:");
-        if(name === "" && name === undefined){
+        if(name === "" ){
             alert("Nhập lại")
         }
-    }while(name === "" && undefined)
+    }while(name === "")
     do{
         age = prompt("nhập Age:");
-        if(age === "" && age === undefined){
+        if(age === "" ){
             alert("Nhập lại")
         }
-    }while(age === "" && age === undefined)
+    }while(age === "" )
     do{
         gender = prompt("nhập Gender:");
-        if(gender === "" && gender === undefined){
+        if(gender === ""){
             alert("Nhập lại")
         }
-    }while(gender === "" && gender === undefined)
+    }while(gender === "")
 
      // let age = prompt("nhập Age");
      // let gender = prompt("nhập Male");
