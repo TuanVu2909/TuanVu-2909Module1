@@ -6,13 +6,14 @@
 
     <link rel="stylesheet" href="Manage.css">
 </head>
-<body>
+<body onload="reloadDisplay()">
 <div id="form-login">
     <table >
         <tr>
             <td><img src="image/logotnf.jpg" /></td>
-            <td colspan="4" ><h1>FC TNF </h1></td>
-            <td><button onclick="login()" id="button" style="margin-left: 60%">Đăng Nhập</button></td>
+            <td colspan="3" ><h1>FC TNF </h1></td>
+            <td><button onclick="login()"  style="margin-left: 30%">Login</button></td>
+            <td><button onclick="logout()" style="width: 100px">Logout</button></td>
 
 
         </tr>
@@ -23,21 +24,15 @@
         <tr>
             <td colspan="2"><h4>Cầu thủ:</h4></td>
             <td colspan="2"><input style="margin-left: 10%" type="text" id="search">
-                <button onclick="searchPlayer()" >Search</button></td>
-            <td colspan="2">Tìm kiếm theo vị trí:<select id="select" onchange="searchPosition(this)">
-                <option value="">--Chọn vị trí--</option>
-                <option value="gk" name="Thủ Môn">Thủ môn</option>
-                <option value="cb" name="Hậu Vệ">Hậu vệ</option>
-                <option value="cm" name="Tiền Vệ">Tiền Vệ</option>
-                <option value="cf" name="Tiền Đạo">Tiền đạo</option>
-            </select></td>
+                <button onclick="searchPlayer()" >Search</button>
+                 <button onclick="reset()">Reset</button></td>
         </tr>
         <tr>
             <th colspan="6" style="text-align: left">I. Chủ tịch CLB</th>
 
         </tr>
         <tr>
-            <td><img src="image/Ronaldo.jpg" height="40" width="50"/></td>
+            <td><img src="image/Ronaldo.jpg" height="40" width="50"/>   </td>
             <th colspan="5">Hoàng Thanh Tú<br>Age:32<br>Address: Hà Nội</th>
 
         </tr>
@@ -45,12 +40,15 @@
             <th style="text-align: left" colspan="6">II. Cầu thủ:</th>
         </tr>
     </table>
-    <button style="width: 150px" onclick="reloadDisplay()">Show/Hide Player</button>
-    <p id="disPlay"></p>
     <p id="player"></p>
+    <p id="disPlay"></p>
 
-    <h2>Thêm cầu thủ vào đội:</h2><br>
-    <table>
+
+
+    <table id="showAdd" style="display: none">
+        <tr>
+            <td colspan="5" style="text-align: center"><h3 style="color: red">Thêm Thành Viên</h3></td>
+        </tr>
         <tr>
             <td>Image:(Ảnh)</td>
             <td><input type="text" id="image"><br></td>
@@ -71,8 +69,14 @@
             <td>Position:(Vị trí thi đấu:)</td>
             <td><input type="text" id="positionPlayer"><br></td>
         </tr>
+        <tr>
+            <td colspan="5" style="text-align: center"><button onclick="addPlayer()">Add</button>
+            <button onclick="savePlayer()">Save</button></td>
+        </tr>
     </table>
-    <button onclick="addPlayer()">Add</button>
+
+
+
 </div>
 </body>
 <script src="Manage.js"></script>

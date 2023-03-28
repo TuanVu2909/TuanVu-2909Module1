@@ -1,16 +1,16 @@
 class Manage {
     image;
-    Name;
-    Age;
-    Address;
-    Position;
+    name;
+    age;
+    address;
+    position;
 
     constructor(image, name, age, address, position) {
         this.image = image;
-        this.Name = name;
-        this.Age = age;
-        this.Address = address;
-        this.Position = position;
+        this.name = name;
+        this.age = age;
+        this.address = address;
+        this.position = position;
     }
 
     getImage() {
@@ -18,19 +18,19 @@ class Manage {
     }
 
     getName() {
-        return this.Name;
+        return this.name;
     }
 
     getAge() {
-        return this.Age;
+        return this.age;
     }
 
     getAddress() {
-        return this.Address;
+        return this.address;
     }
 
     getPosition() {
-        return this.Position;
+        return this.position;
     }
 }
 
@@ -46,11 +46,13 @@ let play1er9 = new Manage("image/vandersar.jpg", "Vũ Long", "28", "Hà Nội", 
 let player10 = new Manage("image/tevez.jpg", "Xuân Hiếu", "28", "Thanh Hóa", "Tiền Đạo");
 
 let managerPlayer = [player1, player2, player3, player4, play1er5, play1er6, player7, player8, play1er9, player10];
-
+let displayItem = localStorage.getItem("ok");
 let flag = true;
+let demo;
 
 function reloadDisplay() {
-    let data = `<table  style="width: 700px">"
+        let data = `<table  style="width: 700px">"
+
                 <tr>
                     <th colspan="2">Ảnh</th>
                     <th colspan="2">Name</th>
@@ -59,28 +61,32 @@ function reloadDisplay() {
                     <th>Position</th>
                     <th style="color: red">` + managerPlayer.length + " players" + `</th>
                 </tr>`
+    //let displayItem = localStorage.getItem("ok");
+        for (let i = 0; i < managerPlayer.length; i++) {
+            data += "<tr>"
+            data += "<td colspan='2'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
+            data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getName() + "</td>"
+            data += "<td style='text-align: center'>" + managerPlayer[i].getAge() + "</td>"
+            data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getAddress() + "</td>"
+            data += "<td style='text-align: center'>" + managerPlayer[i].getPosition() + "</td>"
+            if (displayItem === "true") {
+                document.getElementById("showAdd").style.display="block";
+                data += "<td><button onclick='updatePlayer(" + i + ")'>Update</button></td>"
+                data += "<td><button onclick='deletePlayer(" + i + ")'>Delete</button></td>"
+            }
+            data += "</tr>"
+        }
+        data += "</table>"
+        document.getElementById("disPlay").innerHTML = data;
+        //console.log(data)
+        // if (flag) {
+        //     document.getElementById("disPlay").style.display = "block"
+        //     flag = false
+        // } else {
+        //     document.getElementById("disPlay").style.display = "none"
+        //     flag = true
+        // }
 
-    for (let i = 0; i < managerPlayer.length; i++) {
-        data += "<tr>"
-        data += "<td colspan='2'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
-        data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getName() + "</td>"
-        data += "<td style='text-align: center'>" + managerPlayer[i].getAge() + "</td>"
-        data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getAddress() + "</td>"
-        data += "<td style='text-align: center'>" + managerPlayer[i].getPosition() + "</td>"
-        data += "<td><button onclick='updatePlayer(" + i + ")'>Update</button></td>"
-        data += "<td><button onclick='deletePlayer(" + i + ")'>Delete</button></td>"
-        data += "</tr>"
-    }
-    data += "</table>"
-    document.getElementById("disPlay").innerHTML = data;
-    //console.log(data)
-    if (flag) {
-        document.getElementById("disPlay").style.display = "block"
-        flag = false
-    } else {
-        document.getElementById("disPlay").style.display = "none"
-        flag = true
-    }
 }
 
 function inputPlayer() {
@@ -124,30 +130,35 @@ function inputPlayer() {
 }
 
 function addPlayer() {
-    let newPlayer = inputPlayer();
-    console.log(newPlayer)
-    if (newPlayer.getImage() !== "") {
-        managerPlayer.push(newPlayer);
-    }
-    if (newPlayer.getName() !== "") {
-        managerPlayer.push(newPlayer);
-    }
-    if (newPlayer.getAge() !== "") {
-        managerPlayer.push(newPlayer);
-    }
-    if (newPlayer.getAddress() !== "") {
-        managerPlayer.push(newPlayer);
-    }
-    if (newPlayer.getPosition() !== "") {
-        managerPlayer.push(newPlayer);
+    let displayItem1 = localStorage.getItem("ok")
+    if (displayItem1 === "true") {
+        let newPlayer = inputPlayer();
+        console.log(newPlayer)
+        if (newPlayer.getImage() !== "") {
+            managerPlayer.push(newPlayer);
+        } else if (newPlayer.getName() !== "") {
+            managerPlayer.push(newPlayer);
+        } else if (newPlayer.getAge() !== "") {
+            managerPlayer.push(newPlayer);
+        } else if (newPlayer.getAddress() !== "") {
+            managerPlayer.push(newPlayer);
+        } else if (newPlayer.getPosition() !== "") {
+            managerPlayer.push(newPlayer);
+        }
     }
     reloadDisplay();
 }
 
 function updatePlayer(index) {
-    let update = inputPlayer();
-    managerPlayer.splice(index, 1, update);
-    reloadDisplay();
+    // let update = inputPlayer();
+    // managerPlayer.splice(index, 1, update);
+   document.getElementById("image").value = managerPlayer[index].image;
+   document.getElementById("namePlayer").value = managerPlayer[index].name;
+   document.getElementById("agePlayer").value = managerPlayer[index].age;
+   document.getElementById("addressPlayer").value = managerPlayer[index].address;
+   document.getElementById("positionPlayer").value = managerPlayer[index].position;
+   demo=index;
+   reloadDisplay();
 }
 
 function deletePlayer(index) {
@@ -159,27 +170,46 @@ function deletePlayer(index) {
 }
 
 function searchPlayer() {
-    let index = 0;
+    let flag = true;
     let search = document.getElementById("search").value;
     for (let i = 0; i < managerPlayer.length; i++) {
-        if (search === managerPlayer[i].getName()) {
-            index = i;
-            document.getElementById("player").innerHTML = "Image: " + managerPlayer[index].getImage() + "<br>" +
-                " Name: " + managerPlayer[index].getName() + "<br/>" +
-                " Age: " + managerPlayer[index].getAge() + "<br/>" +
-                "Address " + managerPlayer[index].getAddress() + "<br/>" +
-                "Position " + managerPlayer[index].getPosition();
-            break;
-        } else {
-            alert("Nhập lại");
-            break;
+        if (search.toUpperCase() === managerPlayer[i].getName().toUpperCase()) {
+            document.getElementById("player").innerHTML = "Image: " + `<img src='` + managerPlayer[i].getImage() + `' alt='Ảnh cầu thủ'>` + "<br>" +
+                " Name: " + managerPlayer[i].getName() + "<br/>" +
+                " Age: " + managerPlayer[i].getAge() + "<br/>" +
+                "Address " + managerPlayer[i].getAddress() + "<br/>" +
+                "Position " + managerPlayer[i].getPosition();
+            flag=false;
+
         }
+    }if(flag){
+        alert("k tim thay")
     }
 }
-
+function  savePlayer(){
+    let img = document.getElementById("image").value;
+    let name = document.getElementById("namePlayer").value;
+    let age = document.getElementById("agePlayer").value;
+    let address = document.getElementById("addressPlayer").value;
+    let position = document.getElementById("positionPlayer").value;
+    let newPlayer = new Manage(img,name,age,address,position)
+    managerPlayer[demo]=newPlayer;
+    reloadDisplay();
+}
 function login() {
     window.location.href = "FormDangNhap.html"
 }
+
+function logout() {
+localStorage.setItem("ok",false);
+window.location.href="Manage.html"
+}
+
+function reset(){
+    window.location.href = "Manage.html";
+    reloadDisplay();
+}
+
 // function searchPosition(obj){
 //     let position = document.getElementById("select").value;
 //     let index = obj.value;

@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/DangNhap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/FormDangNhap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/Evra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/Ferdinand.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/Ronaldo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/brown.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/carrick.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/cr7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/logotnf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/rooney.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/scholes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/tevez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/tnf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/vandersar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/vidic.webp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/DangKy/DangKy.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/DangKy/DangKy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/DangKy/FormDangKy.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/DangKy/FormDangKy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/DangNhap/DangNhap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/DangNhap/FormDangNhap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/DangNhap/Formdangnhap.css" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Formdangnhap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/DangNhap.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/DangNhap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/oop/demo_class_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo_class_2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/sanpham/quanlysanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/sanpham/quanlysanpham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/Mảng/16-03/BaiTap/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavarScipt/Object/21-03/QuanLyHocSinh.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavarScipt/Object/21-03/QuanLyHocSinh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +119,8 @@
       <workItem from="1679733444161" duration="3741000" />
       <workItem from="1679737237602" duration="3320000" />
       <workItem from="1679796713448" duration="23674000" />
-      <workItem from="1679879069711" duration="17168000" />
+      <workItem from="1679879069711" duration="27125000" />
+      <workItem from="1679973568932" duration="15088000" />
     </task>
     <servers />
   </component>

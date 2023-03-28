@@ -19,9 +19,8 @@ class logIn {
 }
 let user1 = new logIn("addmin","123qwe");
 let manage = [user1]
-console.log(manage)
 
-
+// let manage = JSON.parse(window.localStorage.getItem("key"));
 function test(){
     let flag = true;
     let name = document.getElementById("username").value;
@@ -43,21 +42,22 @@ function test(){
 }
 
 
-function dangNhap(){
+function dangNhap() {
+    localStorage.getItem("ok");
     let name = document.getElementById("username").value;
     let pass = document.getElementById("password").value;
-    let flag = true;
     for (let i = 0; i < manage.length; i++) {
         if (name === manage[i].getUsername() && pass === manage[i].getPassword()) {
-            flag = false;
-        }
-    }
-    if (flag) {
-        alert("đăng nhập không thành công")
+            localStorage.setItem("ok", true)
+            // window.localStorage.setItem("key", JSON.stringify(manage))
 
-    } else {
-        alert("đăng nhập thành công")
-        window.document.location.href= 'Manage.html';
+            alert("Đăng nhập thành công");
+            window.document.location.href = 'Manage.html';
+        } else {
+            localStorage.setItem("ok", false)
+            alert("đăng nhập không thành công")
+
+        }
 
     }
 }
