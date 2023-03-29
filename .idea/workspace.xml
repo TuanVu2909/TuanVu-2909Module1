@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5d5216-6fcf-44dc-ad08-052d4f79e181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CaseStudy/Manage/image/MU.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Demo_Css_C02/Demo_Css_C02/Oop/demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/DangNhap.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/DangNhap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/FormDangNhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/FormDangNhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Formdangnhap.css" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Formdangnhap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy/Manage/Manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Manage/Manage.js" afterDir="false" />
@@ -120,7 +123,10 @@
       <workItem from="1679737237602" duration="3320000" />
       <workItem from="1679796713448" duration="23674000" />
       <workItem from="1679879069711" duration="27125000" />
-      <workItem from="1679973568932" duration="15088000" />
+      <workItem from="1679973568932" duration="17323000" />
+      <workItem from="1680004313846" duration="2345000" />
+      <workItem from="1680006718391" duration="97000" />
+      <workItem from="1680051950663" duration="8537000" />
     </task>
     <servers />
   </component>

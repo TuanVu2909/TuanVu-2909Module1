@@ -49,44 +49,38 @@ let managerPlayer = [player1, player2, player3, player4, play1er5, play1er6, pla
 let displayItem = localStorage.getItem("ok");
 let flag = true;
 let demo;
+localStorage.setItem("ok", false)
 
 function reloadDisplay() {
-        let data = `<table  style="width: 700px">"
 
+        let data = `<table  style="width: 700px">"
                 <tr>
-                    <th colspan="2">Ảnh</th>
+                    <th colspan="2">Image</th>
                     <th colspan="2">Name</th>
                     <th>Age</th>
                     <th colspan="2">Address</th>
                     <th>Position</th>
                     <th style="color: red">` + managerPlayer.length + " players" + `</th>
                 </tr>`
-    //let displayItem = localStorage.getItem("ok");
         for (let i = 0; i < managerPlayer.length; i++) {
             data += "<tr>"
-            data += "<td colspan='2'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
+           data += "<td colspan='2' class='zoom'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
             data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getName() + "</td>"
             data += "<td style='text-align: center'>" + managerPlayer[i].getAge() + "</td>"
             data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getAddress() + "</td>"
             data += "<td style='text-align: center'>" + managerPlayer[i].getPosition() + "</td>"
             if (displayItem === "true") {
+                document.getElementById("logout").style.display="block";
                 document.getElementById("showAdd").style.display="block";
                 data += "<td><button onclick='updatePlayer(" + i + ")'>Update</button></td>"
                 data += "<td><button onclick='deletePlayer(" + i + ")'>Delete</button></td>"
+            }else {
+                document.getElementById("login").style.display = "block";
             }
             data += "</tr>"
         }
         data += "</table>"
         document.getElementById("disPlay").innerHTML = data;
-        //console.log(data)
-        // if (flag) {
-        //     document.getElementById("disPlay").style.display = "block"
-        //     flag = false
-        // } else {
-        //     document.getElementById("disPlay").style.display = "none"
-        //     flag = true
-        // }
-
 }
 
 function inputPlayer() {
@@ -131,7 +125,7 @@ function inputPlayer() {
 
 function addPlayer() {
     let displayItem1 = localStorage.getItem("ok")
-    if (displayItem1 === "true") {
+    if (displayItem1 === "false") {
         let newPlayer = inputPlayer();
         console.log(newPlayer)
         if (newPlayer.getImage() !== "") {
@@ -174,7 +168,7 @@ function searchPlayer() {
     let search = document.getElementById("search").value;
     for (let i = 0; i < managerPlayer.length; i++) {
         if (search.toUpperCase() === managerPlayer[i].getName().toUpperCase()) {
-            document.getElementById("player").innerHTML = "Image: " + `<img src='` + managerPlayer[i].getImage() + `' alt='Ảnh cầu thủ'>` + "<br>" +
+            document.getElementById("player").innerHTML = "Image: " + `<img  src='` + managerPlayer[i].getImage() + `' alt='Ảnh cầu thủ'>` + "<br>" +
                 " Name: " + managerPlayer[i].getName() + "<br/>" +
                 " Age: " + managerPlayer[i].getAge() + "<br/>" +
                 "Address " + managerPlayer[i].getAddress() + "<br/>" +
@@ -206,21 +200,15 @@ window.location.href="Manage.html"
 }
 
 function reset(){
-    window.location.href = "Manage.html";
+    document.getElementById("player").style.display = "none";
     reloadDisplay();
 }
+function resetPlayer(){
+    document.getElementById("image").value = "";
+    document.getElementById("namePlayer").value = "";
+    document.getElementById("agePlayer").value = "";
+    document.getElementById("addressPlayer").value = "";
+    document.getElementById("positionPlayer").value = "";
+    reloadDisplay();
 
-// function searchPosition(obj){
-//     let position = document.getElementById("select").value;
-//     let index = obj.value;
-//     for (let i = 0; i< managerPlayer.length; i++){
-//         if (index === ""){
-//             alert("Nhập chọn vị trí");
-//             break;
-//         }
-//         if (index === "gk" ){
-//             position.innerHTML = "Cầu thủ: " + managerPlayer[i].getName();
-//         }
-//     }
-//     reloadDisplay();
-// }
+}

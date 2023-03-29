@@ -10,10 +10,10 @@
 <div id="form-login">
     <table >
         <tr>
-            <td><img src="image/logotnf.jpg" /></td>
-            <td colspan="3" ><h1>FC TNF </h1></td>
-            <td><button onclick="login()"  style="margin-left: 30%">Login</button></td>
-            <td><button onclick="logout()" style="width: 100px">Logout</button></td>
+            <td class="zoom"><img src="image/logotnf.jpg" /></td>
+            <td colspan="3" ><h1>FC TNF</h1></td>
+            <td><button onclick="login()" id="login" style="display: none">Login</button></td>
+            <td><button onclick="logout()" id="logout" style="display: none">Logout</button></td>
 
 
         </tr>
@@ -32,7 +32,7 @@
 
         </tr>
         <tr>
-            <td><img src="image/Ronaldo.jpg" height="40" width="50"/>   </td>
+            <td class="zoom"><img src="image/Ronaldo.jpg" height="40" width="50"/>   </td>
             <th colspan="5">Hoàng Thanh Tú<br>Age:32<br>Address: Hà Nội</th>
 
         </tr>
@@ -40,8 +40,8 @@
             <th style="text-align: left" colspan="6">II. Cầu thủ:</th>
         </tr>
     </table>
-    <p id="player"></p>
-    <p id="disPlay"></p>
+    <p id="player" class="zoom"></p>
+    <p id="disPlay" ></p>
 
 
 
@@ -71,11 +71,10 @@
         </tr>
         <tr>
             <td colspan="5" style="text-align: center"><button onclick="addPlayer()">Add</button>
-            <button onclick="savePlayer()">Save</button></td>
+            <button onclick="savePlayer()">Save</button>
+            <button onclick="resetPlayer()">Reset</button></td>
         </tr>
     </table>
-
-
 
 </div>
 </body>

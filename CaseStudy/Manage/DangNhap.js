@@ -37,21 +37,17 @@ function test(){
         flag = false
     }
     if(flag){
-        dangNhap();
+        login();
     }
 }
 
-
-function dangNhap() {
+function login() {
     localStorage.getItem("ok");
     let name = document.getElementById("username").value;
     let pass = document.getElementById("password").value;
     for (let i = 0; i < manage.length; i++) {
         if (name === manage[i].getUsername() && pass === manage[i].getPassword()) {
             localStorage.setItem("ok", true)
-            // window.localStorage.setItem("key", JSON.stringify(manage))
-
-            alert("Đăng nhập thành công");
             window.document.location.href = 'Manage.html';
         } else {
             localStorage.setItem("ok", false)
@@ -66,32 +62,3 @@ function cancel(){
 }
 
 
-// function dangKy(){
-//     let name = document.getElementById("fullName").value;
-//     let userName = document.getElementById("userName").value;
-//     let passWord = document.getElementById("passWord").value;
-//     let confirmPassword = document.getElementById("cfPassWord").value;
-//     let email = document.getElementById("email").value;
-//     let phone = document.getElementById("phoneNumber").value;
-//     let address = document.getElementById("address").value;
-// let newUser = [name,userName,passWord,confirmPassword, email,phone,address]
-//     let flag = true;
-//     for (let i = 0; i< newUser.length; i++){
-//         if(userName === manage[i].getUsername()){
-//             flag = false;
-//         }
-//         if (passWord === manage[i].getPassword()){
-//             flag = false;
-//         }
-//         if (confirmPassword !== passWord){
-//             flag = false;
-//         }
-//         if (email === manage[i].getEmail()){
-//              flag = false;
-//         }
-//         if (phone === manage[i].getPhoneNumber()){
-//             flag = false;
-//         }
-//     }
-// }
-// dangKy();
