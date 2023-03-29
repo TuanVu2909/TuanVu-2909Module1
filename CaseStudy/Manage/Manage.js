@@ -201,7 +201,8 @@ window.location.href="Manage.html"
 
 function reset(){
     document.getElementById("player").style.display = "none";
-    reloadDisplay();
+    document.getElementById("search").value = "";
+
 }
 function resetPlayer(){
     document.getElementById("image").value = "";
