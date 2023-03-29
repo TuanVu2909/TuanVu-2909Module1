@@ -2,7 +2,7 @@ class logIn {
     UserName
     PassWord
 
-    constructor(username,password) {
+    constructor(username, password) {
         this.UserName = username;
         this.PassWord = password;
 
@@ -17,11 +17,12 @@ class logIn {
     }
 
 }
-let user1 = new logIn("addmin","123qwe");
+
+let user1 = new logIn("addmin", "123qwe");
 let manage = [user1]
 
 // let manage = JSON.parse(window.localStorage.getItem("key"));
-function test(){
+function test() {
     let flag = true;
     let name = document.getElementById("username").value;
     let pass = document.getElementById("password").value;
@@ -36,7 +37,7 @@ function test(){
         alert("Nhập Password");
         flag = false
     }
-    if(flag){
+    if (flag) {
         login();
     }
 }
@@ -57,7 +58,8 @@ function login() {
 
     }
 }
-function cancel(){
+
+function cancel() {
     window.location.href = "Manage.html"
 }
 

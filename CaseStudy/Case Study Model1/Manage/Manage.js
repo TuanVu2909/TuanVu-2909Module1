@@ -12,23 +12,18 @@ class Manage {
         this.address = address;
         this.position = position;
     }
-
     getImage() {
         return this.image;
     }
-
     getName() {
         return this.name;
     }
-
     getAge() {
         return this.age;
     }
-
     getAddress() {
         return this.address;
     }
-
     getPosition() {
         return this.position;
     }
@@ -53,7 +48,7 @@ localStorage.setItem("ok", false)
 
 function reloadDisplay() {
 
-        let data = `<table  style="width: 700px">"
+    let data = `<table  style="width: 700px">"
                 <tr>
                     <th colspan="2">Image</th>
                     <th colspan="2">Name</th>
@@ -62,27 +57,26 @@ function reloadDisplay() {
                     <th>Position</th>
                     <th style="color: red">` + managerPlayer.length + " players" + `</th>
                 </tr>`
-        for (let i = 0; i < managerPlayer.length; i++) {
-            data += "<tr>"
-           data += "<td colspan='2' class='zoom'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
-            data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getName() + "</td>"
-            data += "<td style='text-align: center'>" + managerPlayer[i].getAge() + "</td>"
-            data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getAddress() + "</td>"
-            data += "<td style='text-align: center'>" + managerPlayer[i].getPosition() + "</td>"
-            if (displayItem === "true") {
-                document.getElementById("logout").style.display="block";
-                document.getElementById("showAdd").style.display="block";
-                data += "<td><button onclick='updatePlayer(" + i + ")'>Update</button></td>"
-                data += "<td><button onclick='deletePlayer(" + i + ")'>Delete</button></td>"
-            }else {
-                document.getElementById("login").style.display = "block";
-            }
-            data += "</tr>"
+    for (let i = 0; i < managerPlayer.length; i++) {
+        data += "<tr>"
+        data += "<td colspan='2' class='zoom'><img src='" + managerPlayer[i].getImage() + "' alt='Ảnh cầu thủ'></td>"
+        data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getName() + "</td>"
+        data += "<td style='text-align: center'>" + managerPlayer[i].getAge() + "</td>"
+        data += "<td colspan='2' style='text-align: center'>" + managerPlayer[i].getAddress() + "</td>"
+        data += "<td style='text-align: center'>" + managerPlayer[i].getPosition() + "</td>"
+        if (displayItem === "true") {
+            document.getElementById("logout").style.display = "block";
+            document.getElementById("showAdd").style.display = "block";
+            data += "<td><button onclick='updatePlayer(" + i + ")'>Update</button></td>"
+            data += "<td><button onclick='deletePlayer(" + i + ")'>Delete</button></td>"
+        } else {
+            document.getElementById("login").style.display = "block";
         }
-        data += "</table>"
-        document.getElementById("disPlay").innerHTML = data;
+        data += "</tr>"
+    }
+    data += "</table>"
+    document.getElementById("disPlay").innerHTML = data;
 }
-
 function inputPlayer() {
     let img = document.getElementById("image").value;
     let name = document.getElementById("namePlayer").value;
@@ -146,13 +140,13 @@ function addPlayer() {
 function updatePlayer(index) {
     // let update = inputPlayer();
     // managerPlayer.splice(index, 1, update);
-   document.getElementById("image").value = managerPlayer[index].image;
-   document.getElementById("namePlayer").value = managerPlayer[index].name;
-   document.getElementById("agePlayer").value = managerPlayer[index].age;
-   document.getElementById("addressPlayer").value = managerPlayer[index].address;
-   document.getElementById("positionPlayer").value = managerPlayer[index].position;
-   demo=index;
-   reloadDisplay();
+    document.getElementById("image").value = managerPlayer[index].image;
+    document.getElementById("namePlayer").value = managerPlayer[index].name;
+    document.getElementById("agePlayer").value = managerPlayer[index].age;
+    document.getElementById("addressPlayer").value = managerPlayer[index].address;
+    document.getElementById("positionPlayer").value = managerPlayer[index].position;
+    demo = index;
+    reloadDisplay();
 }
 
 function deletePlayer(index) {
@@ -173,38 +167,41 @@ function searchPlayer() {
                 " Age: " + managerPlayer[i].getAge() + "<br/>" +
                 "Address " + managerPlayer[i].getAddress() + "<br/>" +
                 "Position " + managerPlayer[i].getPosition();
-            flag=false;
-
         }
-    }if(flag){
+        flag = false;
+    }
+    if (flag) {
         alert("k tim thay")
     }
 }
-function  savePlayer(){
+
+function savePlayer() {
     let img = document.getElementById("image").value;
     let name = document.getElementById("namePlayer").value;
     let age = document.getElementById("agePlayer").value;
     let address = document.getElementById("addressPlayer").value;
     let position = document.getElementById("positionPlayer").value;
-    let newPlayer = new Manage(img,name,age,address,position)
-    managerPlayer[demo]=newPlayer;
+    let newPlayer = new Manage(img, name, age, address, position)
+    managerPlayer[demo] = newPlayer;
     reloadDisplay();
 }
+
 function login() {
     window.location.href = "FormDangNhap.html"
 }
 
 function logout() {
-localStorage.setItem("ok",false);
-window.location.href="Manage.html"
+    localStorage.setItem("ok", false);
+    window.location.href = "Manage.html"
 }
 
-function reset(){
+function reset() {
     document.getElementById("player").style.display = "none";
     document.getElementById("search").value = "";
 
 }
-function resetPlayer(){
+
+function resetPlayer() {
     document.getElementById("image").value = "";
     document.getElementById("namePlayer").value = "";
     document.getElementById("agePlayer").value = "";
